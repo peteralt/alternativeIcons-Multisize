@@ -4,7 +4,7 @@ import SwiftUI
 struct alternativeIcons_MultisizeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(logoClient: .live)
         }
     }
 }

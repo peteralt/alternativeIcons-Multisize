@@ -26,6 +26,9 @@
 		8A98A12E2969D7700089442E /* A-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A98A12B2969D7700089442E /* A-iPad@2x.png */; };
 		8A98A12F2969D7700089442E /* A-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A98A12C2969D7700089442E /* A-iPad.png */; };
 		8A98A1302969D7700089442E /* A-iPadPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A98A12D2969D7700089442E /* A-iPadPro@2x.png */; };
+		8A98A1342969D92A0089442E /* LogoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98A1332969D92A0089442E /* LogoClient.swift */; };
+		8A98A1362969D97B0089442E /* LogoClient+Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98A1352969D97B0089442E /* LogoClient+Live.swift */; };
+		8A98A1382969DA3C0089442E /* LogoClient+Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98A1372969DA3C0089442E /* LogoClient+Mocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		8A98A12C2969D7700089442E /* A-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A-iPad.png"; sourceTree = "<group>"; };
 		8A98A12D2969D7700089442E /* A-iPadPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A-iPadPro@2x.png"; sourceTree = "<group>"; };
 		8A98A1312969D80A0089442E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8A98A1332969D92A0089442E /* LogoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoClient.swift; sourceTree = "<group>"; };
+		8A98A1352969D97B0089442E /* LogoClient+Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogoClient+Live.swift"; sourceTree = "<group>"; };
+		8A98A1372969DA3C0089442E /* LogoClient+Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogoClient+Mocks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		8A98A1002969D52E0089442E /* alternativeIcons-Multisize */ = {
 			isa = PBXGroup;
 			children = (
+				8A98A1322969D9220089442E /* LogoClient */,
 				8A98A1312969D80A0089442E /* Info.plist */,
 				8A98A10F2969D6860089442E /* AppIcons */,
 				8A98A1012969D52E0089442E /* alternativeIcons_MultisizeApp.swift */,
@@ -144,6 +151,16 @@
 				8A98A11C2969D6F30089442E /* C@3x.png */,
 			);
 			path = C;
+			sourceTree = "<group>";
+		};
+		8A98A1322969D9220089442E /* LogoClient */ = {
+			isa = PBXGroup;
+			children = (
+				8A98A1332969D92A0089442E /* LogoClient.swift */,
+				8A98A1352969D97B0089442E /* LogoClient+Live.swift */,
+				8A98A1372969DA3C0089442E /* LogoClient+Mocks.swift */,
+			);
+			path = LogoClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +250,9 @@
 			files = (
 				8A98A1042969D52E0089442E /* ContentView.swift in Sources */,
 				8A98A1022969D52E0089442E /* alternativeIcons_MultisizeApp.swift in Sources */,
+				8A98A1342969D92A0089442E /* LogoClient.swift in Sources */,
+				8A98A1382969DA3C0089442E /* LogoClient+Mocks.swift in Sources */,
+				8A98A1362969D97B0089442E /* LogoClient+Live.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

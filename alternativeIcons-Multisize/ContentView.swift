@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  alternativeIcons-Multisize
-//
-//  Created by Peter Alt on 1/7/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {

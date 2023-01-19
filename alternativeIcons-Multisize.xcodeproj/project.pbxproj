@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5AF3042979EB1600C356E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A5AF3032979EB1600C356E9 /* README.md */; };
 		8A98A1022969D52E0089442E /* alternativeIcons_MultisizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98A1012969D52E0089442E /* alternativeIcons_MultisizeApp.swift */; };
 		8A98A1042969D52E0089442E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98A1032969D52E0089442E /* ContentView.swift */; };
 		8A98A1062969D52F0089442E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A98A1052969D52F0089442E /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A5AF3032979EB1600C356E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8A98A0FE2969D52E0089442E /* alternativeIcons-Multisize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alternativeIcons-Multisize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A98A1012969D52E0089442E /* alternativeIcons_MultisizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alternativeIcons_MultisizeApp.swift; sourceTree = "<group>"; };
 		8A98A1032969D52E0089442E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		8A98A0F52969D52E0089442E = {
 			isa = PBXGroup;
 			children = (
+				8A5AF3032979EB1600C356E9 /* README.md */,
 				8A98A1002969D52E0089442E /* alternativeIcons-Multisize */,
 				8A98A0FF2969D52E0089442E /* Products */,
 			);
@@ -227,6 +230,7 @@
 				8A98A1092969D52F0089442E /* Preview Assets.xcassets in Resources */,
 				8A98A1212969D7360089442E /* C-iPad@2x.png in Resources */,
 				8A98A1242969D7570089442E /* C-iPadPro@2x.png in Resources */,
+				8A5AF3042979EB1600C356E9 /* README.md in Resources */,
 				8A98A11D2969D6F30089442E /* C@2x.png in Resources */,
 				8A98A12F2969D7700089442E /* A-iPad.png in Resources */,
 				8A98A1222969D7360089442E /* C-iPad.png in Resources */,
